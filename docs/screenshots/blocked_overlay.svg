@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 720" width="320" height="640">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EEF2FF"/>
+      <stop offset="50%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <filter id="cardShadow3" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Phone Frame -->
+  <rect x="6" y="6" width="348" height="708" rx="38" fill="url(#bgGrad)" stroke="#CBD5E1" stroke-width="6"/>
+
+  <!-- Top Notification Banner (100% Alert) -->
+  <rect x="20" y="28" width="320" height="68" rx="16" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.5" filter="url(#cardShadow3)"/>
+  <circle cx="44" cy="62" r="14" fill="#FEF2F2"/>
+  <text x="44" y="67" text-anchor="middle" font-family="sans-serif" font-size="13">🔔</text>
+  <text x="68" y="54" font-family="sans-serif" font-size="12" font-weight="bold" fill="#EF4444">100% Daily Limit Reached: YouTube</text>
+  <text x="68" y="70" font-family="sans-serif" font-size="10" fill="#475569">YouTube hit 100% of its 30m limit &amp; is Force Stopped.</text>
+
+  <!-- Brand Header -->
+  <text x="180" y="136" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#475569" letter-spacing="2">🌿 FORCE STOP • DIGITAL BALANCE</text>
+
+  <!-- Pulsing Lock Circle -->
+  <circle cx="180" cy="232" r="54" fill="#FEF2F2"/>
+  <circle cx="180" cy="232" r="36" fill="#FEE2E2"/>
+  <text x="180" y="244" text-anchor="middle" font-family="sans-serif" font-size="30">🔒</text>
+
+  <!-- Title & Subtitle -->
+  <text x="180" y="324" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold" fill="#0F172A">Daily Limit Reached</text>
+  <text x="180" y="348" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">You've reached your daily limit for YouTube.</text>
+  <text x="180" y="366" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">Take a mindful break and reconnect with your day.</text>
+
+  <!-- Stats Card -->
+  <rect x="28" y="396" width="304" height="108" rx="20" fill="#FFFFFF" filter="url(#cardShadow3)"/>
+  <text x="48" y="434" font-family="sans-serif" font-size="13" fill="#64748B">⏳ Time spent today</text>
+  <text x="312" y="434" text-anchor="end" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0F172A">30m / 30m (100%)</text>
+
+  <line x1="48" y1="452" x2="312" y2="452" stroke="#F1F5F9" stroke-width="1.5"/>
+
+  <text x="48" y="480" font-family="sans-serif" font-size="13" fill="#64748B">⏲️ Next usage cycle</text>
+  <text x="312" y="480" text-anchor="end" font-family="sans-serif" font-size="13" font-weight="bold" fill="#4F46E5">In 6h 45m (00:00)</text>
+
+  <!-- Primary Action Button -->
+  <rect x="28" y="558" width="304" height="50" rx="16" fill="#4F46E5"/>
+  <text x="180" y="588" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">🏠 Return to Home Screen</text>
+
+  <!-- Secondary Action Buttons -->
+  <rect x="28" y="622" width="146" height="44" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="101" y="649" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#334155">Open Force Stop</text>
+
+  <rect x="186" y="622" width="146" height="44" rx="14" fill="#FFFBEB" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="259" y="649" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#D97706">+10 min Extra</text>
+</svg>

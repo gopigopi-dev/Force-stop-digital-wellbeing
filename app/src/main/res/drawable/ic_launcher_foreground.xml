@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Glowing outer balance circle -->
+    <path
+        android:fillColor="#336366F1"
+        android:pathData="M54,23 A31,31 0 1,1 53.9,23 Z" />
+    <!-- Outer shield / wellness ring -->
+    <path
+        android:strokeColor="#818CF8"
+        android:strokeWidth="3"
+        android:fillColor="#1E1B4B"
+        android:pathData="M54,27 C68.91,27 81,39.09 81,54 C81,68.91 68.91,81 54,81 C39.09,81 27,68.91 27,54 C27,39.09 39.09,27 54,27 Z" />
+    <!-- Amber focus inner accent ring segment -->
+    <path
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,27 C68.91,27 81,39.09 81,54" />
+    <!-- Two clean pause/stop bars in center symbolizing Force Stop -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,41 L49,41 A2,2 0 0,1 51,43 L51,65 A2,2 0 0,1 49,67 L43,67 A2,2 0 0,1 41,65 L41,43 A2,2 0 0,1 43,41 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M59,41 L65,41 A2,2 0 0,1 67,43 L67,65 A2,2 0 0,1 65,67 L59,67 A2,2 0 0,1 57,65 L57,43 A2,2 0 0,1 59,41 Z" />
+    <!-- Mindful leaf accent -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M54,32 C58,35 60,39 59,43 C55,42 51,40 50,36 C49.8,35 51,33 54,32 Z" />
+</vector>
+
